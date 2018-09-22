@@ -702,7 +702,9 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Custom repos -->
+  <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
+  
+  <!-- Superior OS repos -->
   <include name="snippets/superior.xml" />				   
 </manifest>

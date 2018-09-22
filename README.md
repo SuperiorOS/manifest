@@ -4,9 +4,11 @@
 Credits:
 =======
  * [**LineageOS**](https://github.com/LineageOS)
+ * [**DotOS**](https://github.com/DotOS)
+ * [**ArrowOS**](https://github.com/ArrowOS)
+ * [**PixelExperience**](https://github.com/PixelExperience)
  * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
  * [**AospExtended**](https://github.com/AospExtended)
- * [**PixelExperience**](https://github.com/PixelExperience)
  * [**ABC**](https://github.com/ezio84?tab=repositories)
 
 -----------------------------------------------------------------------------
@@ -22,5 +24,5 @@ To initialize your local repository, use a command like this:
 Then to sync up:
 
 ```bash
-    repo sync  -f --force-sync --no-clone-bundle --no-tags
+    repo sync  -f --force-sync --no-clone-bundle -j4
 ```
