@@ -1,6 +1,6 @@
+-----------------------------------------------------------------------------
 
-
-
+-----------------------------------------------------------------------------
 Credits:
 =======
  * [**LineageOS**](https://github.com/LineageOS)
@@ -24,5 +24,6 @@ To initialize your local repository, use a command like this:
 Then to sync up:
 
 ```bash
-    repo sync  -f --force-sync --no-clone-bundle -j4
+    repo sync -c -j4 --force-sync --no-clone-bundle --no-tags
 ```
+-----------------------------------------------------------------------------
