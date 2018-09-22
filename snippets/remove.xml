@@ -121,5 +121,4 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/hardware/interfaces" />
-  <remove-project name="platform/system/update_engine" />
 </manifest>

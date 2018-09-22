@@ -107,6 +107,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="superior" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="superior" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="superior" />
   
   <!-- External Repos -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="superior" />
