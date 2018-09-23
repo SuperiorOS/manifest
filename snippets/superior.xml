@@ -60,6 +60,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="superior" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="superior" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="superior" />
+  <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
   
   <!-- Hardware Repos -->
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="superior" revision="pie-caf-8916" />
