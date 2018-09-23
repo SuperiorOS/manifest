@@ -92,6 +92,7 @@
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="superior" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="superior" />
 
   <!-- System Repos -->
   <project path="system/security" name="android_system_security" groups="pdk" remote="superior" />
