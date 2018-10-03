@@ -27,3 +27,13 @@ Then to sync up:
     repo sync -c -j4 --force-sync --no-clone-bundle --no-tags
 ```
 -----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------
+
+HALL OF FAME
+============
+
+[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/0)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/0)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/1)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/1)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/2)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/2)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/3)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/3)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/4)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/4)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/5)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/5)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/6)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/6)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/7)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/7)
+
+---------------------------------------------------------------------------------
