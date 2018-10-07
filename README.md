@@ -7,6 +7,7 @@
 -----------------------------------------------------------------------------
 Credits:
 =======
+ * [**AOSP**](https://android.googlesource.com)
  * [**LineageOS**](https://github.com/LineageOS)
  * [**DotOS**](https://github.com/DotOS)
  * [**PixelExperience**](https://github.com/PixelExperience)
