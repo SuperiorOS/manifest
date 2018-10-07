@@ -1,5 +1,9 @@
 -----------------------------------------------------------------------------
 
+<p align="center">
+ <img src="https://github.com/SuperiorOS/manifest/blob/pie/superior.png" > 
+</p>
+
 -----------------------------------------------------------------------------
 Credits:
 =======
@@ -24,26 +28,28 @@ To initialize your local repository, use a command like this:
     repo init -u git://github.com/SuperiorOS/manifest.git -b pie
 ```
 
-Then to sync up:
------------------
+Then to sync up:-
+================
 
 ```bash
-    repo sync -c -j4 --force-sync --no-clone-bundle --no-tags
+    repo sync -c -jx --force-sync --no-clone-bundle --no-tags
 ```
 
-Start the build:
------------------
+Start the build:-
+=================
 
 ```bash
   . build/envsetup.sh
-  lunch superior_devicecodename-userdebug
+  lunch superior_<devicecodename>-userdebug
   mka bacon -jx
 ```
 -----------------------------------------------------------------------------
 
-Some Links:
------------------
-
+Some Links:-
+============
+* [**Google Plus**](https://plus.google.com/communities/109206747517820828242)
+* [**Telegram Public Chat**](https://t.me/superioros)
+* [**Telegram Channel**](https://t.me/superior_os)
 
 ----------------------------------------------------------------------------
 
