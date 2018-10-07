@@ -5,10 +5,13 @@ Credits:
 =======
  * [**LineageOS**](https://github.com/LineageOS)
  * [**DotOS**](https://github.com/DotOS)
- * [**ArrowOS**](https://github.com/ArrowOS)
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
  * [**AospExtended**](https://github.com/AospExtended)
+ * [**Syberia OS**](https://github.com/syberia-project)
+ * [**Nitrogen OS**](https://github.com/nitrogen-project)
+ * [**Pixys OS**](https://github.com/PixysOS)
+ * [**ArrowOS**](https://github.com/ArrowOS)
  * [**ABC**](https://github.com/ezio84?tab=repositories)
 
 -----------------------------------------------------------------------------
@@ -22,11 +25,24 @@ To initialize your local repository, use a command like this:
 ```
 
 Then to sync up:
+-----------------
 
 ```bash
     repo sync -c -j4 --force-sync --no-clone-bundle --no-tags
 ```
+
+Start the build:
+-----------------
+
+```bash
+  . build/envsetup.sh
+  lunch superior_devicecodename-userdebug
+  mka bacon -jx
+```
 -----------------------------------------------------------------------------
+
+Some Links:
+-----------------
 
 
 ----------------------------------------------------------------------------
