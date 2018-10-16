@@ -90,6 +90,7 @@
   
   <!-- Hardware Repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="superior" />
+  <!-- <project path="hardware/custom/telephony" name="android_hardware_custom_telephony" remote="superior" /> -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="superior" />
   <project path="hardware/aosp/interfaces" name="android_hardware_aosp_interfaces" remote="superior" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="superior" />
@@ -158,7 +159,7 @@
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="superior" />
+  <!-- <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="superior" /> -->
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="superior" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
