@@ -71,6 +71,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="superior" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="superior" revision="pie-caf" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="superior" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="superior" revision="pie-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="superior" revision="pie-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="superior" revision="pie-caf-8996" />
@@ -79,6 +80,7 @@
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="superior" revision="pie-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="superior" revision="pie-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="superior" revision="pie-caf-8998" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="superior" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="superior" revision="pie-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="superior" revision="pie-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="superior" revision="pie-caf-8996" />
