@@ -32,13 +32,13 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="superior" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="superior" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="superior" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="superior" revision="pie-ims" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk,tradefed" remote="superior" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="superior" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk" remote="superior" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="pdk" remote="superior" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="superior" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="pdk" remote="superior" revision="pie-ims" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="superior" revision="pie-ims" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
 
   <!-- Packages Repos -->
@@ -59,8 +59,8 @@
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="superior" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="superior" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="superior" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="superior" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="superior" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="superior" revision="pie-ims" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="superior" revision="pie-ims" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="superior" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="superior" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
@@ -160,7 +160,7 @@
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="superior" />
 
   <!-- Qcom Vendor Repos -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" revision="pie-ims" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="superior" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="superior" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
