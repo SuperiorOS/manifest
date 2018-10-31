@@ -1,7 +1,7 @@
 -----------------------------------------------------------------------------
 
 <p align="center">
- <img src="https://github.com/SuperiorOS/manifest/blob/pie-ims/superior.png" > 
+ <img src="https://github.com/SuperiorOS/manifest/blob/pie/superior.png" > 
 </p>
 
 -----------------------------------------------------------------------------
@@ -26,7 +26,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u git://github.com/SuperiorOS/manifest.git -b pie-ims
+    repo init -u git://github.com/SuperiorOS/manifest.git -b pie
 ```
 
 Then to sync up:-
