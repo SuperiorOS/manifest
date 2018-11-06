@@ -50,6 +50,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="platform/external/f2fs-tools" />
   
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
