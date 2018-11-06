@@ -9,7 +9,7 @@
            fetch="https://github.com/" />
 	
 
-  <default revision="refs/tags/android-9.0.0_r12"
+  <default revision="refs/tags/android-9.0.0_r16"
            remote="aosp"
            sync-j="4" 
 		   sync-c="true"/>
