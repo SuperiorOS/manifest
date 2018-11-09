@@ -70,6 +70,8 @@
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="superior" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="superior" />
   <!--<project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="superior" />-->
+  <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="superior" />
+  <project path="packages/apps/SuperiorWalls" name="packages_apps_SuperiorWallpapers" remote="superior" />
   
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
