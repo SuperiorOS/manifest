@@ -54,9 +54,14 @@ Some Links:-
 
 ----------------------------------------------------------------------------
 
-HALL OF FAME
-============
+Download Stats
+==============
 
-[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/0)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/0)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/1)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/1)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/2)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/2)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/3)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/3)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/4)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/4)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/5)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/5)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/6)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/6)[![](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/images/7)](https://sourcerer.io/fame/Sweeto143/SuperiorOS/manifest/links/7)
+[![Download Superior](https://img.shields.io/sourceforge/dd/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download) 
 
+[![Download Superior](https://img.shields.io/sourceforge/dw/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download) 
+
+[![Download Superior](https://img.shields.io/sourceforge/dm/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download) 
+
+[![Download Superior](https://img.shields.io/sourceforge/dt/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download) 
 ---------------------------------------------------------------------------------
