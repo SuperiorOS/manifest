@@ -40,6 +40,7 @@
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="superior" />
   <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
   <project path="frameworks/support" name="android_frameworks_support" remote="superior" />
+  <project path="frameworks/aoscp" name="android_frameworks_aoscp" remote="superior" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="superior" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="superior" />
