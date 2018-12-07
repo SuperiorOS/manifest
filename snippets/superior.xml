@@ -4,11 +4,14 @@
   <remote  name="superior"
            fetch="https://github.com/SuperiorOS"
            revision="refs/heads/pie" />
-		   
+
   <remote  name="SuperiorOS-Devices"
            fetch="https://github.com/SuperiorOS-Devices" 
            revision="refs/heads/pie" />
-		   
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/sweeto143"
+          revision="pie" />
 
   <project path="manifest" name="manifest" remote="superior" />
   <project path="build/make" name="android_build" remote="superior" >
@@ -139,9 +142,9 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/vold" name="android_system_vold" remote="superior" />
   
-    <!-- Prebuilts -->
+  <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="superior" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gitlab" clone-depth="1" />
   
   <!-- External Repos -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="superior" />
