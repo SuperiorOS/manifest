@@ -41,7 +41,6 @@
   <project path="frameworks/support" name="android_frameworks_support" remote="superior" />
   <project path="frameworks/aoscp" name="android_frameworks_aoscp" remote="superior" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="superior" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="superior" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="superior" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
@@ -107,7 +106,6 @@
   
   <!-- Hardware Repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
-  <project path="hardware/custom/telephony" name="android_hardware_custom_telephony" remote="superior" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="superior" />
   <project path="hardware/aosp/interfaces" name="android_hardware_aosp_interfaces" remote="superior" />
   <project path="hardware/ril" name="android_hardware_ril" remote="superior" />
