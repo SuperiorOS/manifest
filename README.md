@@ -17,6 +17,9 @@ Credits:
  * [**Nitrogen OS**](https://github.com/nitrogen-project)
  * [**Pixys OS**](https://github.com/PixysOS)
  * [**ArrowOS**](https://github.com/ArrowOS)
+ * [**MSM-Xtended**](https://github.com/Project-Xtended)
+ * [**HavocOS**](https://github.com/Havoc-OS)
+ * [**BootleggersROM**](https://github.com/BootleggersROM)
  * [**ABC**](https://github.com/ezio84?tab=repositories)
 
 -----------------------------------------------------------------------------
