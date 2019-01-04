@@ -143,6 +143,7 @@
   <project path="system/netd" name="android_system_netd" remote="superior" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/vold" name="android_system_vold" remote="superior" />
+  <project path="system/timezone" name="android_system_timezone" remote="los" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="superior" clone-depth="1" />
@@ -178,6 +179,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="superior" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="superior" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="superior" />
+  <project path="external/icu" name="android_external_icu" remote="los" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
