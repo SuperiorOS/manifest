@@ -9,6 +9,10 @@
            fetch="https://github.com/SuperiorOS-Devices" 
            revision="refs/heads/pie" />
 
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-16.0" />
+
   <project path="manifest" name="manifest" remote="superior" />
   <project path="build/make" name="android_build" remote="superior" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -189,4 +193,5 @@
   <project path="vendor/nxp/opensource/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="superior" />
   <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="superior" />
   <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="superior" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="los" />
 </manifest> 
