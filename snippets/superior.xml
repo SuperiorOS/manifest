@@ -77,7 +77,7 @@
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="superior" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="superior" />
   <project path="packages/apps/WeatherClient" name="android_packages_apps_WeatherClient" remote="superior" />
-  <project path="packages/apps/SuperiorWalls" name="android_packages_apps_SuperiorWallpapers" remote="superior" />
+  <!-- <project path="packages/apps/SuperiorWalls" name="android_packages_apps_SuperiorWallpapers" remote="superior" /> -->
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="superior" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="superior" />
