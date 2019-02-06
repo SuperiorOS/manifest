@@ -52,6 +52,7 @@
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/skia" />
   
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
@@ -71,6 +72,7 @@
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/development" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/libhardware" />
