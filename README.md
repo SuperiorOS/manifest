@@ -36,7 +36,7 @@ Then to sync up:-
 ================
 
 ```bash
-    repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+    repo sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken --force-sync -j8
 ```
 
 Start the build:-
