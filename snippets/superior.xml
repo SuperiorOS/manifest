@@ -100,7 +100,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-8974" remote="los" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-8994" remote="los" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-8996" remote="los" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-8998" remote="los" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" revision="pie-caf-8998" remote="superior" />
 
   <!-- Display HALS -->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" />
