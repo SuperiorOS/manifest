@@ -204,6 +204,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="superior" />
   <project path="external/icu" name="android_external_icu" remote="los" />
   <project path="external/skia" name="android_external_skia" remote="superior" />
+  <project path="external/proguard" name="android_external_proguard" remote="los" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
