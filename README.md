@@ -51,7 +51,6 @@ Start the build:-
 
 Some Links:-
 ============
-* [**Google Plus**](https://plus.google.com/communities/109206747517820828242)
 * [**Telegram Public Chat**](https://t.me/superioros)
 * [**Telegram Channel**](https://t.me/superior_os)
 
