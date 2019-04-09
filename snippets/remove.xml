@@ -54,6 +54,8 @@
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/fsck_msdos" />
+  <remove-project name="platform/external/chromium-webview" />
   
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />

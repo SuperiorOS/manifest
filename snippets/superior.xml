@@ -205,6 +205,9 @@
   <project path="external/icu" name="android_external_icu" remote="los" />
   <project path="external/skia" name="android_external_skia" remote="superior" />
   <project path="external/proguard" name="android_external_proguard" remote="los" />
+  <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="los" />
+  <project path="external/libtar" name="android_external_libtar" remote="los" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="los" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
