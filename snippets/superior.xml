@@ -213,6 +213,7 @@
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="los" />
   <project path="external/libtar" name="android_external_libtar" remote="los" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="los" />
+  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="los" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
