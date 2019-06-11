@@ -51,7 +51,6 @@
 
   <!-- Packages Repos -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
-  <!-- <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="superior" /> -->
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="superior" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="superior" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="superior" />
@@ -61,7 +60,6 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="superior" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="superior" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="superior" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="superior" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="superior" />
@@ -77,10 +75,8 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="superior" />
-  <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="superior" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="superior" />
   <project path="packages/apps/WeatherClient" name="android_packages_apps_WeatherClient" remote="superior" />
-  <!-- <project path="packages/apps/SuperiorWalls" name="android_packages_apps_SuperiorWallpapers" remote="superior" /> -->
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="superior" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="superior" />
