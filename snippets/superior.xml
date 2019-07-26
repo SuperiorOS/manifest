@@ -109,6 +109,7 @@
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" revision="lineage-16.0-caf-8994" remote="los" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" revision="lineage-16.0-caf-8996" remote="los" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" revision="lineage-16.0-caf-8998" remote="los" />
+  <project path="hardware/qcom/display-caf/headers" name="hardware_qcom_display-caf_headers" remote="superior" />
 
   <!-- Media HALS -->
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="los" />
