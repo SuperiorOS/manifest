@@ -80,6 +80,7 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="superior" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="superior" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="superior" />
   
   <!-- CodeAurora additions -->
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="superior" revision="pie-caf" />
