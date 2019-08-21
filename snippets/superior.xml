@@ -48,6 +48,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="superior" />
   <project path="frameworks/opt/slimrecent" name="android_frameworks_opt_slimrecent" remote="superior" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
+  <project path="vendor/support" name="android_vendor_support" remote="superior" />
 
   <!-- Packages Repos -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
@@ -81,6 +82,7 @@
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="superior" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="superior" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="superior" />
+  <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="superior" />
   
   <!-- CodeAurora additions -->
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="superior" revision="pie-caf" />
