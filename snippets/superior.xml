@@ -83,6 +83,8 @@
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="superior" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="superior" />
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="superior" />
+  <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="superior" />
+  <project path="packages/apps/Longshot" name="android_packages_apps_Longshot" remote="superior" />
   
   <!-- CodeAurora additions -->
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="superior" revision="pie-caf" />
