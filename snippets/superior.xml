@@ -103,6 +103,7 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-8994" remote="los" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-8996" remote="los" />
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-8998" remote="los" />
+  <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-8150" remote="los" />
 
   <!-- Display HALS -->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" />
@@ -114,6 +115,7 @@
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" revision="lineage-16.0-caf-8994" remote="los" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" revision="lineage-16.0-caf-8996" remote="los" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" revision="lineage-16.0-caf-8998" remote="los" />
+  <project path="hardware/qcom/display-caf/sm8150" name="android_hardware_qcom_display" revision="lineage-16.0-caf-8150" remote="los" />
   <project path="hardware/qcom/display-caf/headers" name="hardware_qcom_display-caf_headers" remote="superior" />
 
   <!-- Media HALS -->
@@ -126,6 +128,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" revision="lineage-16.0-caf-8994" remote="los" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" revision="lineage-16.0-caf-8996" remote="los" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" revision="lineage-16.0-caf-8998" remote="los" />
+  <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" revision="lineage-16.0-caf-8150" remote="los" />
 
   <!-- Hardware Repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
