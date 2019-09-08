@@ -169,7 +169,8 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/vold" name="android_system_vold" remote="superior" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
-  
+  <project path="system/nfc" name="android_system_nfc" remote="superior" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="superior" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
@@ -219,6 +220,8 @@
   <project path="external/libtar" name="android_external_libtar" remote="los" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="los" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="los" />
+  <project path="external/libcups" name="android_external_libcups" remote="superior" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="superior" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />

@@ -36,9 +36,6 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
-  <remove-project name="device/google/crosshatch" />
-  <remove-project name="device/google/crosshatch-kernel" />
-  <remove-project name="device/google/crosshatch-sepolicy" />
   
   <!-- External repos -->
   <remove-project name="platform/external/tinycompress" />
@@ -48,6 +45,8 @@
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/perfetto" />
+  <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/zlib" />
@@ -195,6 +194,7 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/libhidl" />
