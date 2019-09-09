@@ -45,6 +45,7 @@
   <project path="frameworks/aoscp" name="android_frameworks_aoscp" remote="superior" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="superior" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="superior" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="superior" />
   <project path="frameworks/opt/slimrecent" name="android_frameworks_opt_slimrecent" remote="superior" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />

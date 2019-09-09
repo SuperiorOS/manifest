@@ -102,6 +102,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/voip" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
   
   <!-- General repos -->
   <remove-project name="kernel/tests" />
