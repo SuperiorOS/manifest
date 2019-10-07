@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          revision="ten" />
+
+  <remote name="SuperiorOS-Devices"
+           fetch="https://github.com/SuperiorOS-Devices"
+           revision="refs/heads/ten" />
+
+  <!-- General -->
+  <project path="manifest" name="manifest" remote="superior" />
+  <project path="art" name="android_art" remote="superior" />
+  <project path="bionic" name="android_bionic" remote="superior" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+  <project path="development" name="android_development" remote="superior" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="superior" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="superior" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="superior" revision="ten-legacy-um" />
+
+  <!-- External Repos -->
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="superior" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="superior" revision="ten-caf-8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="superior" revision="ten-caf-8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="superior" revision="ten-caf-8998" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
+  <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="superior" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="superior" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="superior" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="superior" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="superior" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="superior" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="superior" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="superior" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="superior" />
+
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="android_system_bt" remote="superior" />
+  <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/netd" name="android_system_netd" remote="superior" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
+  <project path="system/vold" name="android_system_vold" remote="superior" />
+
+  <!-- Vendor Repos -->
+  <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
+</manifest>
+

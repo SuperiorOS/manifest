@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-17.0" />
+
+  <!-- Device -->
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
+
+  <!-- External -->
+  <project path="external/exfat" name="android_external_exfat" remote="lineage" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+  <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="lineage" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/selinux" name="android_external_selinux" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="lineage" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="lineage" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lineage" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
+  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="lineage" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <!-- <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" /> -->
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+
+  <!-- Audio HALS -->
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" revision="lineage-17.0-caf-msm8916" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio" revision="lineage-17.0-caf-msm8974" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="android_hardware_qcom_audio" revision="lineage-17.0-caf-msm8994" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-17.0-caf-msm8996" remote="lineage" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-17.0-caf-sdm845" remote="lineage" />
+
+  <!-- Display HALS -->
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-msm8916" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8974/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-msm8974" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8994/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-msm8994" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-msm8996" remote="lineage" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-sdm845" remote="lineage" />
+
+  <!-- Media HALS -->
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" revision="lineage-17.0-caf-msm8916" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8974/media" name="android_hardware_qcom_media" revision="lineage-17.0-caf-msm8974" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8994/media" name="android_hardware_qcom_media" revision="lineage-17.0-caf-msm8994" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="lineage-17.0-caf-msm8996" remote="lineage" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-17.0-caf-sdm845" remote="lineage" />
+
+  <!-- Packages -->
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/openssl" name="android_prebuilts_openssl" groups="pdk,tradefed" remote="lineage" />
+  <project path="prebuilts/tools-superior" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
+
+  <!-- System -->
+  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" />
+
+  <!-- Vendor -->
+
+  <!-- CodeAurora additions -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-17.0-pn5xx" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.0-pn5xx" remote="lineage" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-17.0-sn100x" remote="lineage" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.0-sn100x" remote="lineage" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />  
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
+
+</manifest>
+

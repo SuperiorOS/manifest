@@ -2,11 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-10.0.0_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8"
+           sync-c="true" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -511,7 +512,6 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom_sdm845" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="vendor,qcom_sdm845" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
   </project>
   <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="qcom_sdm845" />
@@ -767,5 +767,14 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
+  
+  <!-- Some Lineage repos -->
+  <include name="snippets/los.xml" />
+  
+  <!-- Superior OS repos -->
+  <include name="snippets/superior.xml" />
 
 </manifest>
