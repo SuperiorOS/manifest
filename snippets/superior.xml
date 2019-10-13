@@ -90,6 +90,9 @@
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="superior" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
 
+  <!-- Platform -->
+  <project path="platform_testing" name="android_platform_testing" remote="superior" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
 
