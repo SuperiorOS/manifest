@@ -12,6 +12,8 @@ Credits:
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**AospExtended**](https://github.com/AospExtended)
  * [**Pixys OS**](https://github.com/PixysOS)
+ * [**Syberia OS**](https://github.com/syberia-project)
+ * [**Nitrogen OS**](https://github.com/nitrogen-project)
 
 -----------------------------------------------------------------------------
 
