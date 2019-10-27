@@ -15,6 +15,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
+  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
