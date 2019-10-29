@@ -49,6 +49,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="superior" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="superior" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="superior" revision="ten-caf-8998" />
@@ -65,7 +66,6 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="superior" />
   <project path="hardware/qcom-caf/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="superior" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="superior" revision="ten-caf" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
@@ -102,5 +102,6 @@
 
   <!-- Vendor Repos -->
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="superior" />
 </manifest>
 
