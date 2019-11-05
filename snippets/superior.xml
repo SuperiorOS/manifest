@@ -86,6 +86,9 @@
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="superior" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="superior" />
   <project path="packages/apps/Longshot" name="android_packages_apps_Longshot" remote="superior" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="los" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
+  <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" remote="los" />
   
   <!-- CodeAurora additions -->
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="superior" revision="pie-caf" />
@@ -223,6 +226,11 @@
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="los" />
   <project path="external/libcups" name="android_external_libcups" remote="superior" />
   <project path="external/libhevc" name="android_external_libhevc" remote="superior" />
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="los" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="los" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="los" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="los" />
+  <project path="external/v8" name="android_external_v8" remote="los" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
