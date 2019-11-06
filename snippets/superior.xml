@@ -56,13 +56,10 @@
   <!-- Hardware -->
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="superior" revision="ten-caf-8998" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="superior" revision="ten-caf-sm8150" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="superior" revision="ten-caf-sdm845" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="superior" revision="ten-caf-8998" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="superior" revision="ten-caf-sm8150" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="superior" revision="ten-caf-sdm845" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="superior" revision="ten-caf-8998" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="superior" revision="ten-caf-sm8150" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="superior" revision="ten-caf-sdm845" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
