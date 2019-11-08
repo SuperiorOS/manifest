@@ -143,6 +143,7 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
