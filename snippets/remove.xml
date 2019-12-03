@@ -49,6 +49,7 @@
   <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/selinux" />
@@ -182,6 +183,7 @@
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/providers/TvProvider" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
   
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />

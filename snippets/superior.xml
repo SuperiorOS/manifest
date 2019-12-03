@@ -89,6 +89,7 @@
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="los" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
   <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" remote="los" />
+  <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="los" />
   
   <!-- CodeAurora additions -->
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="superior" revision="pie-caf" />
@@ -157,7 +158,7 @@
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
 
   <!-- System Repos -->
-  <project path="system/security" name="android_system_security" remote="superior" />
+  <project path="system/security" name="android_system_security" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="superior" />
@@ -206,6 +207,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="superior" />
   <project path="external/openssh" name="android_external_openssh" remote="superior" />
   <project path="external/perfetto" name="android_external_perfetto" remote="superior" />
+  <project path="external/ImageMagick" name="android_external_ImageMagick" remote="los" />
   <project path="external/p7zip" name="android_external_p7zip" remote="superior" />
   <project path="external/pigz" name="android_external_pigz" remote="superior" />
   <project path="external/unrar" name="android_external_unrar" remote="superior" />
