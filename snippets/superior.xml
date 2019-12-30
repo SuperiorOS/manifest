@@ -36,14 +36,14 @@
   <project path="build/blueprint" name="android_build_blueprint" remote="superior" />
 
   <!-- Device -->
-  <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="superior" revision="ten-legacy-um" />
+  <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
 
   <!-- External Repos -->
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="superior" />
   <project path="external/selinux" name="android_external_selinux" remote="superior" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
@@ -70,27 +70,27 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="superior" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" remote="superior" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="superior" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="superior" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="superior" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="superior" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="superior" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="superior" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="superior" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="superior" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="superior" />
+  <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="superior" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
+  <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="superior" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="superior" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="superior" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="superior" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="superior" />
-  <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
-  <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="superior" />
-  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="superior" />
-  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="superior" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="superior" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="superior" />
 
   <!-- Platform -->
   <project path="platform_testing" name="android_platform_testing" remote="superior" />
