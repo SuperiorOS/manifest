@@ -202,6 +202,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="superior" />
   <project path="external/elfutils" name="android_external_elfutils" remote="superior" />
   <project path="external/json-c" name="android_external_json-c" remote="superior" />
+  <project path="external/libavc" name="android_external_libavc" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="superior" />
   <project path="external/nano" name="android_external_nano" remote="superior" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="superior" />

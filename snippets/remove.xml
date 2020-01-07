@@ -45,6 +45,7 @@
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libcxx" />
