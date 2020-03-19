@@ -3,26 +3,37 @@
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-17.0" />
+           revision="refs/heads/lineage-17.1" />
 
   <!-- Device -->
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
 
   <!-- External -->
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
+  <project path="external/htop" name="android_external_htop" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
-  <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
+  <project path="external/nano" name="android_external_nano" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/openssh" name="android_external_openssh" remote="lineage" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="lineage" />
+  <project path="external/pigz" name="android_external_pigz" remote="lineage" />
+  <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="lineage" />
+  <project path="external/unrar" name="android_external_unrar" remote="lineage" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
+  <project path="external/zip" name="android_external_zip" remote="lineage" />
 
   <!-- Hardware repos -->
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="lineage" />
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-17.1-caf" remote="lineage" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="lineage" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="lineage" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lineage" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.1-caf" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
@@ -54,16 +65,18 @@
   </project>
 
   <!-- Audio HALS -->
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />1
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8916" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8960" remote="lineage" />
   <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8974" remote="lineage" />
   <project path="hardware/qcom-caf/msm8994/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8994" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8996" remote="lineage" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-apq8084" remote="lineage" />
 
   <!-- Display HALS -->
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="lineage" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-msm8916" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-msm8960" remote="lineage" />
   <project path="hardware/qcom-caf/msm8974/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-msm8974" remote="lineage" />
@@ -74,6 +87,7 @@
   <project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-apq8084" remote="lineage" />
 
   <!-- Media HALS -->
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="lineage" />
   <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8916" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8960" remote="lineage" />
   <project path="hardware/qcom-caf/msm8974/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8974" remote="lineage" />
