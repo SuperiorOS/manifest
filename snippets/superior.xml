@@ -51,6 +51,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/toybox" name="android_external_toybox" remote="superior" />
   <project path="external/zlib" name="android_external_zlib" remote="superior" />
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="superior" />
   
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
