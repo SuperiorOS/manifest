@@ -9,6 +9,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
 
   <!-- External -->
+  <project path="external/bson" name="android_external_bson" remote="lineage" /> 
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
