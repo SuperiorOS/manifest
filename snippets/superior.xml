@@ -42,6 +42,7 @@
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
 
   <!-- External Repos -->
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="superior" />
   <project path="external/libbfqio" name="android_external_libbfqio" remote="superior" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="superior" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="superior" />
