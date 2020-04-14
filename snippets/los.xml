@@ -110,6 +110,7 @@
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
 
   <!-- Vendor -->
 
