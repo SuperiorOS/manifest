@@ -119,7 +119,6 @@
 
   <!-- Vendor Repos -->
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="superior" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="superior" />
 </manifest>
 
