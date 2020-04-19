@@ -88,6 +88,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="superior" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_Omnistyle" remote="superior"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="superior" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
