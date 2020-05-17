@@ -18,6 +18,7 @@
   <project path="bionic" name="android_bionic" remote="superior" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
   <project path="development" name="android_development" remote="superior" />
+  <project path="libcore" name="android_libcore" remote="superior" />
 
   <!-- Build -->
   <project path="build/blueprint" name="android_build_blueprint" remote="superior" />
