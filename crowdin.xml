@@ -7,15 +7,15 @@
            sync-c="true" 
            sync-j="4"  />
   <project path="manifest" name="manifest" remote="superior" />
+  <project path="crowdin" name="crowdin" />
   <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="superior" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="superior" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="superior" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_Omnistyle" remote="superior"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="superior" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />
-  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="superior" />
+  <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
 
 </manifest>
