@@ -116,5 +116,10 @@
   <!-- Vendor Repos -->
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="superior" />
-</manifest>
 
+  <!-- Superior Repos -->
+  <project path="crowdin" name="crowdin" remote="superior" revision="master" />
+  <project path="official_devices" name="official_devices" remote="superior" />
+  <project path="changelogs" name="changelogs" remote="superior" />
+
+</manifest>
