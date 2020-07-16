@@ -48,17 +48,17 @@ Some Links:-
 * [**Telegram Channel**](https://t.me/superior_os)
 * [**Jenkins**](https://www.jenkins.superioros.org)
 * [**Gerrit**](https://www.gerrit.superioros.org)
-* [**Crowdin**](https://crowdin.com/project/superior-os)
+* [**Crowdin**](https://translations.superioros.org)
 ----------------------------------------------------------------------------
 
 Download Stats
 ==============
 
-[![Download Superior](https://img.shields.io/sourceforge/dd/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download) 
+[![Download Superior](https://img.shields.io/sourceforge/dd/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
 
-[![Download Superior](https://img.shields.io/sourceforge/dw/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download) 
+[![Download Superior](https://img.shields.io/sourceforge/dw/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
 
-[![Download Superior](https://img.shields.io/sourceforge/dm/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download) 
+[![Download Superior](https://img.shields.io/sourceforge/dm/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
 
-[![Download Superior](https://img.shields.io/sourceforge/dt/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download) 
+[![Download Superior](https://img.shields.io/sourceforge/dt/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
 ---------------------------------------------------------------------------------
