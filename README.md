@@ -48,7 +48,7 @@ Some Links:-
 * [**Telegram Channel**](https://t.me/superior_os)
 * [**Jenkins**](https://www.jenkins.superioros.org)
 * [**Gerrit**](https://www.gerrit.superioros.org)
-* [**Crowdin**](https://crowdin.com/project/superior-os)
+* [**Crowdin**](https://translations.superioros.org)
 ----------------------------------------------------------------------------
 
 Download Stats
