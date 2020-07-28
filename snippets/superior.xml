@@ -103,7 +103,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
-
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="superior" clone-depth="1" />
 
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" remote="superior" />
