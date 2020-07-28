@@ -10,6 +10,7 @@
 
   <!-- External -->
   <project path="external/bson" name="android_external_bson" remote="lineage" /> 
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" clone-depth="1" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
