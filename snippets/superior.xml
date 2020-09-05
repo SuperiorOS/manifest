@@ -103,8 +103,8 @@
   <!-- Platform -->
   <project path="platform_testing" name="android_platform_testing" remote="superior" />
 
-  <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="superior" clone-depth="1" />
+  <!-- Clang From AOSIP -->
+  <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1"  remote="github" revision="ten" />
 
 
   <!-- System Repos -->
