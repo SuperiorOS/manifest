@@ -400,7 +400,7 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
+  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" revision="refs/tags/android-10.0.0_r46" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
