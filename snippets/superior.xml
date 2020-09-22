@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          review="gerrit.superioros.org"
+          revision="refs/heads/eleven" />
+
+  <remote name="SuperiorOS-Devices"
+           fetch="https://github.com/SuperiorOS-Devices"
+           revision="refs/heads/eleven" />
+
+  <project path="bionic" name="android_bionic" remote="superior" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+
+  <!-- Build Repos -->
+  <project path="build/make" name="android_build" groups="pdk" remote="superior" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="superior" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="superior" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- CodeAurora additions -->
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="superior" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="superior" />
+
+  <!-- External Repos -->
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="superior" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="superior" />
+
+  <!-- superior Repos -->
+  <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
+  <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
+  <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="superior" />
+  <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
+
+</manifest>
