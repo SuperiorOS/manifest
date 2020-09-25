@@ -34,7 +34,6 @@
   <project path="external/zip" name="android_external_zip" remote="lineage" />
 
   <!-- Hardware repos -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
