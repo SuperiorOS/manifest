@@ -88,5 +88,6 @@
 
   <!-- More repos -->
   <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
 </manifest>

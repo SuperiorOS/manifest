@@ -50,6 +50,9 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="superior" />
+
   <!-- superior Repos -->
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
