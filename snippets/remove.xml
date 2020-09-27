@@ -57,6 +57,7 @@
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/base" />
 
   <!-- General repos -->
   <remove-project name="platform/bionic" />
@@ -79,6 +80,8 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SampleLocationAttribution" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
