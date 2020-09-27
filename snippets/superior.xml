@@ -36,6 +36,7 @@
   <!-- CodeAurora additions -->
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="superior" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="superior" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="superior" />
 
   <!-- External Repos -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
@@ -53,10 +54,13 @@
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="superior" />
 
-  <!-- superior Repos -->
+  <!-- Superior Repos -->
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
+
+  <!-- Sepolicy Repos -->
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior" />
 
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="superior" />

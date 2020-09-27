@@ -15,7 +15,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />
   <project path="vendor/qcom/opensource/libfjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" revision="lineage-17.1" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-18.0" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" revision="lineage-17.1" />
 
   <!-- External -->
@@ -49,7 +48,7 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8998" remote="lineage" />
 
   <!-- Display HALS -->
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-msm8996" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="eleven-caf-msm8996" remote="superior" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="eleven-caf-msm8998" remote="superior" />
 
   <!-- Media HALS -->
