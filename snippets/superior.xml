@@ -12,6 +12,10 @@
            fetch="https://github.com/SuperiorOS-Devices"
            revision="refs/heads/ten" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/sweeto143"
+           revision="ten" />
+
   <!-- General -->
   <project path="manifest" name="manifest" remote="superior" />
   <project path="art" name="android_art" remote="superior" />
@@ -55,6 +59,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="superior" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="superior" />
   <project path="external/pulse" name="android_external_pulse" remote="superior" />
+  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab" />
  
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
