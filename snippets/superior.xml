@@ -77,6 +77,7 @@
 
   <!-- Sepolicy Repos -->
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
 
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="superior" />
