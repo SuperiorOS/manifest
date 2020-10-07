@@ -88,4 +88,7 @@
   <project path="platform_testing" name="android_platform_testing" remote="superior" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="superior" />
 
+  <!-- Manifest -->
+  <project path="manifest" name="manifest" remote="superior" />
+
 </manifest>
