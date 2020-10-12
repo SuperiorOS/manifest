@@ -110,7 +110,7 @@
 
   <!-- Clang From AOSIP -->
   <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1"  remote="github" revision="ten" />
-
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="superior" clone-depth="1" />
 
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" remote="superior" />
