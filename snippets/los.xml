@@ -42,6 +42,7 @@
 
   <!-- System -->
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
 
   <!-- Audio HALS -->
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8996" remote="lineage" />
