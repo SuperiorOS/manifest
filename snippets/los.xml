@@ -15,7 +15,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/libfjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" revision="lineage-17.1" />
-
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
@@ -38,6 +38,9 @@
 
   <!-- Prebuilt Stuff -->  
   <project path="prebuilts/tools-superior" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
+
+  <!-- DeviceSettings -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- System -->
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
