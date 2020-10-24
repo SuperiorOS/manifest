@@ -41,6 +41,7 @@
 
   <!-- DeviceSettings -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
 
   <!-- System -->
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
