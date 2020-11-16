@@ -13,6 +13,9 @@
            fetch="https://github.com/SuperiorOS-Devices"
            revision="refs/heads/eleven" />
 
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
   <project path="bionic" name="android_bionic" remote="superior" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
 
