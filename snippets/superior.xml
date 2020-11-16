@@ -67,7 +67,6 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="superior" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
 
