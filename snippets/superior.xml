@@ -43,6 +43,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="superior" />
 
   <!-- External Repos -->
+  <project path="external/exfat" name="android_external_exfat" remote="superior" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/selinux" name="android_external_selinux" remote="superior" />
 
