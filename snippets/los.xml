@@ -33,6 +33,7 @@
 
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
+  <project path="external/bson" name="android_external_bson" remote="lineage" /> 
   <!-- <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" /> -->
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" revision="lineage-17.1" />
@@ -64,6 +65,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
 
   <!-- System -->
+  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" /> 
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
 
