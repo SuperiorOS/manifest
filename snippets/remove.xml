@@ -83,6 +83,7 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
