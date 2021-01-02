@@ -44,6 +44,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="superior" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/selinux" name="android_external_selinux" remote="superior" />
+  <project path="external/pulse" name="android_external_pulse" remote="superior" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
@@ -67,6 +68,7 @@
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="superior" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="superior" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
 
   <!-- Hardware repos -->
