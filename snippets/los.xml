@@ -46,6 +46,7 @@
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/zip" name="android_external_zip" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
