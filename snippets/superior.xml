@@ -53,6 +53,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="superior" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="superior" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
+  <project path="frameworks/support/lottie" name="android_frameworks_support_lottie" remote="superior" />
 
   <!-- Packages -->
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" remote="superior" />
