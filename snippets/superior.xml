@@ -47,6 +47,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="superior" />
 
   <!-- External Repos -->
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="superior" />
   <project path="external/exfat" name="android_external_exfat" remote="superior" />
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="superior-gitlab" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
