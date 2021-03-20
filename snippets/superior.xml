@@ -101,6 +101,7 @@
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="superior" />
   <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/netd" name="android_system_netd" remote="superior" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/security" name="android_system_security" remote="superior" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="superior" />
