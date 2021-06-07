@@ -39,6 +39,7 @@
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/bson" name="android_external_bson" remote="lineage" /> 
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master" clone-depth="1" />
   <!-- <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" /> -->
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
