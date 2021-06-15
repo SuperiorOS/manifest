@@ -116,6 +116,7 @@
   <project path="platform_testing" name="android_platform_testing" remote="superior" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="superior-gitlab" />
+  <project path="vendor/support" name="android_vendor_support" remote="superior" />
 
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="superior" />
