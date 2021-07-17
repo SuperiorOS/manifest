@@ -49,7 +49,6 @@
   <!-- External Repos -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="superior" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="superior-gitlab" />
-  <project path="external/exfat" name="android_external_exfat" remote="superior" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/selinux" name="android_external_selinux" remote="superior" />
   <project path="external/pulse" name="android_external_pulse" remote="superior" />
