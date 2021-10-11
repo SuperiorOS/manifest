@@ -6,7 +6,8 @@
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.0.0_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true"/>
 
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -1091,5 +1092,14 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+    <!-- Remove unused AOSP repos -->
+    <include name="snippets/remove.xml" />
+
+    <!-- Superior OS repos -->
+    <include name="snippets/superior.xml" />
+
+    <!-- Some Lineage repos -->
+    <include name="snippets/los.xml" />
 
 </manifest>

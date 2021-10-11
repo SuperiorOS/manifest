@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          review="review.superioros.org"
+          revision="refs/heads/twelve" />
+
+  <remote name="SuperiorOS-Devices"
+           fetch="https://github.com/SuperiorOS-Devices"
+           revision="refs/heads/twelve" />
+
+  <project path="manifest" name="manifest" remote="superior" />
+  <project path="build/make" name="android_build" remote="superior" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="superior" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="superior" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="art" name="android_art" remote="superior" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="superior" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+
+  <!-- device repos -->
+  <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="superior" />
+
+  <!-- external repos -->
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="superior" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="superior" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="superior" />
+  <project path="external/selinux" name="android_external_selinux" remote="superior" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="superior" />
+
+  <!-- framework repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
+
+  <!-- hardware repos -->
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="superior" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="superior" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="superior" />
+
+  <!-- packages repos -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
+
+  <!-- prebuilt repos -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" clone-depth="1" remote="superior" />
+
+  <!-- system repos -->
+  <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/qcom" name="android_system_qcom" remote="superior" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="superior" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
+
+  <!-- vendor repos -->
+  <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="superior" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="superior" />
+
+</manifest>
