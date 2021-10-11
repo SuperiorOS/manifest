@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device -->
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/art" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/trusty" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google_car" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/mediatek/wembley-sepolicy" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
+
+  <!-- external repos -->
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
+
+  <!-- general repos -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bootable/recovery" />
+
+  <!-- frameworks repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- hardware repos -->
+  <remove-project name="platform/hardware/libhardware" />
+
+  <!-- packages repos -->
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/modules/adb" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/update_engine" />
+</manifest>

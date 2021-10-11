@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          revision="refs/heads/thirteen" />
+
+  <remote name="superior-gitlab"
+          fetch="https://gitlab.com/superioros"
+          revision="refs/heads/thirteen" />
+
+  <remote name="SuperiorOS-Devices"
+           fetch="https://github.com/SuperiorOS-Devices"
+           revision="refs/heads/thirteen" />
+
+  <!-- Build repos -->
+  <project path="build/make" name="android_build" remote="superior" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="superior" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="bionic" name="android_bionic" groups="pdk" remote="superior" />
+  <project path="manifest" name="manifest" remote="superior" />
+
+  <!-- Bootable repos -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+
+  <!-- Device repos -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="superior" />
+  <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
+
+  <!-- External repos -->
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="superior" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="superior" />
+  <project path="external/mksh" name="android_external_mksh" remote="superior" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
+  <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
+
+  <!-- Qcom hals -->
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="superior"/>
+
+  <!-- Audio hals -->
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="thirteen-caf-sm8150" remote="superior" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="thirteen-caf-msm8998" remote="superior" />
+
+  <!-- Display hals -->
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="thirteen-caf-msm8998" remote="superior" />
+
+  <!-- Media hals -->
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="twelve-caf-msm8998" remote="superior" />
+
+  <!-- Qcom vendor -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="superior" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="superior" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="superior" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="superior" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/gms" name="android_vendor_google_gms" remote="superior-gitlab" />
+  <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="superior" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="superior" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="superior" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="superior" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="superior" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="superior" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="superior" />
+
+  <!-- System repos -->
+  <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="superior" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
+</manifest>
