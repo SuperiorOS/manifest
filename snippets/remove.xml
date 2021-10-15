@@ -103,6 +103,8 @@
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
 
