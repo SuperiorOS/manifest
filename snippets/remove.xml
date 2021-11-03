@@ -64,6 +64,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/robolectric-shadows" />
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
@@ -116,6 +117,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
