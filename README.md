@@ -22,7 +22,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u git://github.com/SuperiorOS/manifest.git -b eleven
+    repo init -u https://github.com/SuperiorOS/manifest.git -b eleven
 ```
 
 Then to sync up:-
@@ -46,8 +46,6 @@ Some Links:-
 ============
 * [**Telegram Public Chat**](https://t.me/superioros)
 * [**Telegram Channel**](https://t.me/superior_os)
-* [**Jenkins**](https://jenkins.superioros.org)
-* [**Gerrit**](https://gerrit.superioros.org)
 * [**Crowdin**](https://translations.superioros.org)
 ----------------------------------------------------------------------------
 
