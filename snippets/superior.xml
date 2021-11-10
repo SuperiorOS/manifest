@@ -89,6 +89,7 @@
 
   <!-- vendor repos -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="superior-gitlab" />
+  <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="superior" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="superior" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="superior" />
