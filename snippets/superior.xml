@@ -96,6 +96,7 @@
   <project path="packages/resources/ThemedIcons" name="android_packages_resources_ThemedIcons" remote="superior">
     <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
   </project>
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="superior" />
 
   <!-- system repos -->
   <project path="system/bt" name="android_system_bt" remote="superior" />
