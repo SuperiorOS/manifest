@@ -70,6 +70,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="superior" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="superior" />
 
   <!-- packages repos -->
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="superior" />
