@@ -91,6 +91,7 @@
   </project>
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="superior" />
+  <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="superior" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="superior" />
 
