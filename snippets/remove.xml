@@ -66,6 +66,8 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/robolectric-shadows" />
   <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libexif" />
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />

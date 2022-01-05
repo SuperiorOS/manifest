@@ -57,6 +57,8 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="lineage" />
   <project path="external/tremolo" name="android_external_tremolo" remote="lineage" />
+  <project path="external/libavc" name="android_external_libavc" remote="lineage" />
+  <project path="external/libexif" name="android_external_libexif" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
