@@ -66,6 +66,9 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="superior" revision="twelve-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="superior" revision="twelve-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom" remote="superior" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="twelve-caf-sm8250" remote="superior" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="twelve-caf-sm8250" remote="superior" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="twelve-caf-sm8250" remote="superior" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="superior" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
