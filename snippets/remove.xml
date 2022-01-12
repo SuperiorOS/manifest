@@ -109,6 +109,7 @@
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Calendar" />
@@ -134,6 +135,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
   <!-- system -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/sepolicy" />
