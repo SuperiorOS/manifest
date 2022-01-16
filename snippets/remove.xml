@@ -125,6 +125,7 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/modules/adb" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -138,6 +139,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/tools/mkbootimg" />
+  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
 
