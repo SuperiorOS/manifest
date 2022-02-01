@@ -104,9 +104,11 @@
   <project path="system/core" name="android_system_core" remote="superior" />
   <project path="system/qcom" name="android_system_qcom" remote="superior" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="superior" />
+  <project path="system/security" name="android_system_security" remote="superior" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
+  <project path="system/vold" name="android_system_vold" remote="superior" />
   <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
-    <project path="system/libziparchive" name="android_system_libziparchive" remote="superior" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="superior" />
 
   <!-- vendor repos -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="superior-gitlab" />
