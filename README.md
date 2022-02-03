@@ -24,6 +24,11 @@ To initialize your local repository, use a command like this:
 ```bash
     repo init -u https://github.com/SuperiorOS/manifest.git -b eleven
 ```
+OR: Use my updated secury patch (eleven only):
+
+```bash
+    repo init -u https://github.com/LeCmnGend/manifest.git -b eleven
+```
 
 Then to sync up:-
 ================
