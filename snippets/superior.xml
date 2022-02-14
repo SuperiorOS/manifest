@@ -71,6 +71,7 @@
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="twelve-caf-sm8250" remote="superior" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="superior" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
+  <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="superior" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="superior" />
