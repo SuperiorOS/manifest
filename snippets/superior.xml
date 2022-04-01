@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          revision="refs/heads/twelvedotone" />
+
+  <remote name="superior-gitlab"
+          fetch="https://gitlab.com/superioros"
+          revision="refs/heads/twelvedotone" />
+
+  <remote name="SuperiorOS-Devices"
+           fetch="https://github.com/SuperiorOS-Devices"
+           revision="refs/heads/twelve" />
+
+  <project path="manifest" name="manifest" remote="superior" />
+  <project path="build/make" name="android_build" remote="superior" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="superior" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="bionic" name="android_bionic" groups="pdk" remote="superior" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+
+  <!-- device repos -->
+  <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="superior" />
+
+  <!-- external repos -->
+  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="superior" />
+  <project path="external/json-c" name="android_external_json-c" remote="superior" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="superior" />
+  <project path="external/selinux" name="android_external_selinux" remote="superior" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
+
+  <!-- framework repos -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
+
+  <!-- hardware repos -->
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="superior" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="twelve-caf-msm8998" remote="superior" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="twelve-caf-msm8998" remote="superior" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="twelve-caf-msm8998" remote="superior" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="superior" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="superior" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom" remote="superior" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="twelve-caf-sm8250" remote="superior" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="twelve-caf-sm8250" remote="superior" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="twelve-caf-sm8250" remote="superior" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="superior" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="superior" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
+
+  <!-- packages repos -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
+  <project path="packages/resources/ThemedIcons" name="android_packages_resources_ThemedIcons" remote="superior">
+    <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
+  </project>
+
+  <!-- system repos -->
+  <project path="system/bt" name="android_system_bt" remote="superior" />
+  <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="superior" />
+  <project path="system/qcom" name="android_system_qcom" remote="superior" />
+  <project path="system/security" name="android_system_security" remote="superior" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
+  <project path="system/vold" name="android_system_vold" remote="superior" />
+
+  <!-- vendor repos -->
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="superior-gitlab" />
+  <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="superior" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="superior" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="superior" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="superior" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="superior" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="superior" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="superior" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="superior" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="superior" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="superior" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="superior" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="superior" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="superior" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="superior" />
+
+</manifest>
