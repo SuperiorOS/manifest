@@ -48,6 +48,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
 
   <!-- framework repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
   <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
   <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
 
