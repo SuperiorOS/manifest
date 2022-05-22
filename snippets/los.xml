@@ -28,4 +28,9 @@
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
+  <!-- vendor repos -->
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="lineage" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="lineage" />
+
 </manifest>
