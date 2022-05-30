@@ -16,7 +16,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" revision="lineage-18.1" remote="lineage" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-18.1-caf" remote="lineage" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,lahaina" revision="lineage-18.1-caf" remote="lineage" />
 
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
