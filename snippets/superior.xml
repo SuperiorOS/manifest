@@ -103,6 +103,7 @@
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="superior" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="superior" />
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="superior" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="superior" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="superior" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="superior" />
@@ -140,7 +141,9 @@
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="superior" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="superior" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="superior" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="superior" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="superior" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="superior" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="superior" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="superior" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="superior" />
