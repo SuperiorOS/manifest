@@ -82,10 +82,10 @@
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="twelve-caf-msm8998" remote="superior" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="twelve-caf-msm8998" remote="superior" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,msmnile" remote="superior" revision="twelve-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="qcom,msmnile" remote="superior" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="qcom" remote="superior" revision="twelve-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,msmnile" remote="superior" revision="twelve-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,kona" revision="twelve-caf-sm8250" remote="superior" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="qcom,kona" revision="twelve-caf-sm8250" remote="superior" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="qcom" revision="twelve-caf-sm8250" remote="superior" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,kona" revision="twelve-caf-sm8250" remote="superior" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="superior" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom,sdm845" remote="superior" />
