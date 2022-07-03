@@ -9,6 +9,7 @@
   <project path="manifest" name="manifest" remote="superior" />
   <project path="crowdin" name="crowdin"  remote="superior" revision="master" />
   <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="superior" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
