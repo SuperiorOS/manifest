@@ -112,6 +112,7 @@
   <remove-project name="platform/system/update_engine" />
 
   <!-- system -->
+  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/tools/mkbootimg" />
