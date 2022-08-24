@@ -105,5 +105,6 @@
   <project path="system/core" name="android_system_core" remote="superior" />
   <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="superior" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
 </manifest>
