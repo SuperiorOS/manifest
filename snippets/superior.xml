@@ -56,6 +56,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
 
   <!-- Qcom hals -->
@@ -110,6 +111,8 @@
   <project path="system/core" name="android_system_core" remote="superior" />
   <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="superior" />
+  <project path="system/security" name="android_system_security" remote="superior" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
+  <project path="system/vold" name="android_system_vold" remote="superior" />
 </manifest>
