@@ -66,6 +66,7 @@
 
   <!-- external -->
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
@@ -112,6 +113,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
 
   <!-- system -->
   <remove-project name="platform/system/bpf" />
