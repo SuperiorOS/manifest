@@ -66,6 +66,8 @@
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
