@@ -116,8 +116,10 @@
 
   <!-- System repos -->
   <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/extras" name="android_system_extras" remote="superior" />
   <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="superior" />
+  <project path="system/logging" name="android_system_logging" remote="superior" />
   <project path="system/security" name="android_system_security" remote="superior" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
