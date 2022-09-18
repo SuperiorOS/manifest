@@ -61,6 +61,7 @@
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
 
   <!-- Qcom hals -->
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="superior" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="superior"/>
 
   <!-- Audio hals -->

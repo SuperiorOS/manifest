@@ -50,6 +50,7 @@
   <!-- hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Contacts" />
