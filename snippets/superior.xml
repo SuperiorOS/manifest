@@ -38,6 +38,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
 
   <!-- Device repos -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="superior" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="superior" />
@@ -101,6 +102,7 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="superior" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="superior" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="superior" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="superior" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="superior" />
