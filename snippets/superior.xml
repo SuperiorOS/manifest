@@ -43,6 +43,7 @@
 
   <!-- external repos -->
   <project path="external/colorkt" name="android_external_colorkt" remote="superior" />
+  <project path="external/dtc" name="android_external_dtc" remote="superior" />
   <project path="external/expat" name="android_external_expat" remote="superior" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="superior-gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="superior" />
@@ -132,6 +133,7 @@
   <project path="system/bt" name="android_system_bt" remote="superior" />
   <project path="system/core" name="android_system_core" remote="superior" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="superior" />
+  <project path="system/nfc" name="android_system_nfc" remote="superior" />
   <project path="system/qcom" name="android_system_qcom" remote="superior" />
   <project path="system/security" name="android_system_security" remote="superior" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />

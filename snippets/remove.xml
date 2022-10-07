@@ -66,6 +66,7 @@
 
   <!-- external -->
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
@@ -119,6 +120,7 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
