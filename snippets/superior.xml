@@ -98,6 +98,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="superior" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="superior" />
 
   <!-- packages repos -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
@@ -127,6 +128,8 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="superior" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="superior" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="superior" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="superior" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="superior" />
 
   <!-- system repos -->
   <project path="system/bpf" name="android_system_bpf" remote="superior" />

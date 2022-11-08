@@ -96,6 +96,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/nxp/nfc" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -115,6 +116,8 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/modules/Wifi" />
 
   <!-- system -->
   <remove-project name="platform/system/bpf" />
