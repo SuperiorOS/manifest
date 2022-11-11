@@ -39,6 +39,7 @@
 
   <!-- Device repos -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="superior" />
+  <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="superior" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="superior" />
@@ -61,6 +62,8 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="superior" />
 
   <!-- Hardware repos -->
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="superior" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
