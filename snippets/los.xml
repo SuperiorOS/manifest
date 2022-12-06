@@ -28,6 +28,9 @@
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" revision="lineage-18.1" remote="lineage" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
+
   <!-- Hardware -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,lahaina" revision="lineage-18.1-caf" remote="lineage" />
 
