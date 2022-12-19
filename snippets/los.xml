@@ -34,6 +34,7 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" />
 
   <!-- External -->
+  <project path="external/exfatprogs" name="android_external_exfatprogs" revision="lineage-20.0" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
 
   <!-- Hardware repos -->
