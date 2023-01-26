@@ -106,11 +106,11 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="superior" />  
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="superior" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="superior" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="superior" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="superior" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="superior" />
+  <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="superior" />
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="superior" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="superior" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
