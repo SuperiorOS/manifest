@@ -106,6 +106,7 @@
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
   <project path="vendor/support" name="android_vendor_support" remote="superior" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="superior" />
+  <project path="vendor/partner_modules" name="android_vendor_partner_modules" remote="superior-gitlab" clone-depth="1" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="superior" />  
@@ -143,6 +144,7 @@
   <!-- Prebuilt repos -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="superior" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="superior" />
+  <project path="prebuilts/module_sdk" name="android_prebuilts_module_sdk" remote="superior-gitlab" clone-depth="1" />
 
   <!-- Proton Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" clone-depth="1" revision="master" remote="github" />

@@ -113,6 +113,24 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/module_sdk/art" />
+  <remove-project name="platform/prebuilts/module_sdk/AdServices" />
+  <remove-project name="platform/prebuilts/module_sdk/AppSearch" />
+  <remove-project name="platform/prebuilts/module_sdk/Bluetooth" />
+  <remove-project name="platform/prebuilts/module_sdk/conscrypt" />
+  <remove-project name="platform/prebuilts/module_sdk/Connectivity" />
+  <remove-project name="platform/prebuilts/module_sdk/IPsec" />
+  <remove-project name="platform/prebuilts/module_sdk/Media" />
+  <remove-project name="platform/prebuilts/module_sdk/MediaProvider" />
+  <remove-project name="platform/prebuilts/module_sdk/OnDevicePersonalization" />
+  <remove-project name="platform/prebuilts/module_sdk/Permission" />
+  <remove-project name="platform/prebuilts/module_sdk/Scheduling" />
+  <remove-project name="platform/prebuilts/module_sdk/SdkExtensions" />
+  <remove-project name="platform/prebuilts/module_sdk/StatsD" />
+  <remove-project name="platform/prebuilts/module_sdk/Uwb" />
+  <remove-project name="platform/prebuilts/module_sdk/Wifi" />
+
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
