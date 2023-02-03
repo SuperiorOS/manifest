@@ -1193,5 +1193,7 @@
 
     <!-- Some Lineage repos -->
     <include name="snippets/los.xml" />
-
+    
+    <!-- Some PixysOS repos -->
+    <include name="snippets/pixys.xml" />
 </manifest>
