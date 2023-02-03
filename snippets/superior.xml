@@ -159,4 +159,5 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
   <project path="system/vold" name="android_system_vold" remote="superior" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="superior" />
 </manifest>
