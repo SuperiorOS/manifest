@@ -84,16 +84,13 @@
 
   <!-- Audio HALS -->
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8350" remote="lineage" />
 
   <!-- Display HALS -->
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sm8350" remote="lineage" />
 
   <!-- Media HALS -->
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-19.1-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sm8350" remote="lineage" />
 
 </manifest>
