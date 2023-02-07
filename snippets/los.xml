@@ -39,6 +39,7 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" revision="lineage-20.0" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-20" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-20" />
 
   <!-- Packages repos -->
