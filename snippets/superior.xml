@@ -37,6 +37,12 @@
   <!-- Bootable repos -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
 
+  <!-- CodeAurora additions -->
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" remote="superior" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_commonsys_display" groups="qcom,qssi" remote="superior" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="superior" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="superior" />
+
   <!-- Device repos -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="superior" />
   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="superior" />
