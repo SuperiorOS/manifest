@@ -48,13 +48,12 @@ To get started with the building process, you'll need to get familiar with [Git 
 
 ---
 
-# Download Stats
+# Download Stats:-
 
-[![Download Superior](https://img.shields.io/sourceforge/dd/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
+| Download Source | Total |
+| --- | --- |
+| GitHub Releases | ![GitHub all releases](https://img.shields.io/github/downloads/SuperiorOS-Devices/official_devices/total?logo=GitHub&style=for-the-badge&color=blue) |
 
-[![Download Superior](https://img.shields.io/sourceforge/dw/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
-
-[![Download Superior](https://img.shields.io/sourceforge/dm/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
-
-[![Download Superior](https://img.shields.io/sourceforge/dt/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
-
+| Download Source | Daily | Weekly | Monthly | Total |
+| --- | --- | --- | --- | --- |
+| SourceForge | ![SourceForge](https://img.shields.io/sourceforge/dd/superioros?color=8827ed&logo=sourceforge&logoColor=black&style=for-the-badge) | ![SourceForge](https://img.shields.io/sourceforge/dw/superioros?color=6d1cf6&logo=sourceforge&logoColor=black&style=for-the-badge) | ![SourceForge](https://img.shields.io/sourceforge/dm/superioros?color=4b02a4&logo=sourceforge&logoColor=black&style=for-the-badge) | ![SourceForge](https://img.shields.io/sourceforge/dt/superioros?color=ff4d4d&logo=sourceforge&logoColor=black&style=for-the-badge) |
