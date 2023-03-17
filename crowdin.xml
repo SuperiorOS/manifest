@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote name="github" 
+          fetch="https://git@github.com" />
+
   <remote name="superior" 
           fetch="https://git@github.com/SuperiorOS" 
           revision="thirteen" />
@@ -16,5 +20,6 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
   <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="superior" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
-
+  <project path="Superiorwalls" name="Darkstar085/Superiorwalls" remote="github" revision="master" />
+ 
 </manifest>
