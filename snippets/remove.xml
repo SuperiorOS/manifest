@@ -80,6 +80,7 @@
   <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
 
   <!-- hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
@@ -105,6 +106,7 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />

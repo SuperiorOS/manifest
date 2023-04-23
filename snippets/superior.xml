@@ -73,6 +73,7 @@
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="superior" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="superior" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="superior" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="superior" />
 
   <!-- Hardware repos -->
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="superior" />
@@ -140,6 +141,7 @@
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="superior" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="superior" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="superior" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="superior" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="superior" />
   <project path="packages/resources/ThemedIcons" name="android_packages_resources_ThemedIcons" remote="superior">
     <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
