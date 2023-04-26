@@ -47,7 +47,6 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="superior" />
 
   <!-- Device repos -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="superior" />
   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="superior" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior" />
