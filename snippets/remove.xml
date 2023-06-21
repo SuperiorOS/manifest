@@ -57,6 +57,9 @@
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/lynx" />
+  <remove-project name="device/google/lynx-kernel" />
+  <remove-project name="device/google/lynx-sepolicy" />
 
   <!-- external repos -->
   <remove-project name="platform/external/exfatprogs" />
