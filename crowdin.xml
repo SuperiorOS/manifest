@@ -20,6 +20,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
   <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="superior" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="superior" />
   <project path="Superiorwalls" name="Darkstar085/Superiorwalls" remote="github" revision="master" />
  
 </manifest>
