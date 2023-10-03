@@ -69,6 +69,8 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/tools/apksig" />
 
   <!-- general repos -->
   <remove-project name="platform/build" />
