@@ -63,6 +63,10 @@
   <project path="external/selinux" name="android_external_selinux" remote="superior" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="superior" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="superior" />
+
+  <!-- tools repos -->
+  <project path="tools/apksig" name="android_tools_apksig" remote="superior" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
