@@ -64,6 +64,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="superior" />
   <project path="external/libxml2" name="android_external_libxml2" remote="superior" />
+  <project path="external/webp" name="android_external_webp" remote="superior" />
 
   <!-- tools repos -->
   <project path="tools/apksig" name="android_tools_apksig" remote="superior" />
@@ -147,12 +148,15 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="superior" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="superior" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="superior" />
+  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="superior" />
+  <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" remote="superior" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="superior" />
   <project path="packages/resources/ThemedIcons" name="android_packages_resources_ThemedIcons" remote="superior">
     <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
   </project>
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="superior" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="superior" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="superior" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="superior" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="superior" />
@@ -176,5 +180,6 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
   <project path="system/vold" name="android_system_vold" remote="superior" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" remote="superior" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="superior" />
 </manifest>
