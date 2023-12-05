@@ -71,9 +71,11 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/webp" />
+  <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/tools/apksig" />
 
   <!-- general repos -->
+  <remove-project name="platform/cts" />
   <remove-project name="platform/build" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build/soong" />

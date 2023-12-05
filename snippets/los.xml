@@ -6,6 +6,8 @@
           review="https://review.lineageos.org/"
           revision="refs/heads/lineage-20.0" />
 
+  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" />
+
   <!-- ANT wireless -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
@@ -36,6 +38,7 @@
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" revision="lineage-19.1" remote="lineage" />
+  <project path="external/pdfium" name="android_external_pdfium" groups="pdk" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-20.0-caf" />
