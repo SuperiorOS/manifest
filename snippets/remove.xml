@@ -87,6 +87,9 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/libs/systemui" />
+  <remove-project name="platform/frameworks/opt/calendar" />
+  <remove-project name="platform/frameworks/opt/colorpicker" />
+  <remove-project name="platform/frameworks/opt/timezonepicker" />
 
   <!-- General repos -->
   <remove-project name="kernel/configs" />
