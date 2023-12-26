@@ -91,6 +91,7 @@
   </project>
 
   <!-- Vendor repos -->
+  <project path="vendor/certification" name="android_vendor_certification" remote="superior-gitlab" />
   <project path="vendor/gms" name="android_vendor_gms" remote="superior-gitlab" clone-depth="1" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="superior" />
   <project path="vendor/prebuilts-superior" name="android_vendor_prebuilts-superior" remote="superior-gitlab" />
