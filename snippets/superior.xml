@@ -38,6 +38,7 @@
   <project path="art" name="android_art" remote="superior" />
   <project path="bionic" name="android_bionic" remote="superior" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+  <project path="libcore" name="android_libcore" remote="superior" />
 
   <!-- Device repos --> 
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" /> 
@@ -45,7 +46,11 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior" />
 
   <!-- External repos -->
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="superior" />
+  <project path="external/mksh" name="android_external_mksh" remote="superior" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="superior" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="superior" />
   <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" groups="pdk" remote="aosp" revision="refs/heads/main" />
 
   <!-- Framework repos -->
@@ -98,7 +103,6 @@
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
   <project path="vendor/support" name="android_vendor_support" remote="superior" />
   <project path="vendor/SystemUIClocks" name="android_vendor_SystemUIClocks" remote="superior-gitlab" />
-  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" revision="uvite" remote="github" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="superior" />
@@ -128,7 +132,7 @@
   <project path="system/extras" name="android_system_extras" remote="superior" />
   <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="superior" />
-  <project path="system/netd" name="android_system_netd" remote="superior" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="superior" />
   <project path="system/security" name="android_system_security" remote="superior" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
   <project path="system/update_engine" name="android_system_update_engine" remote="superior" />

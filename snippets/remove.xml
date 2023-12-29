@@ -76,11 +76,10 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/cronet" />
-  <remove-project name="platform/external/dtc" />
-  <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/exfatprogs" />
-  <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Frameworks repos -->
   <remove-project name="platform/frameworks/av" />
@@ -98,10 +97,12 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/libcore" />
 
   <!-- hardware repos -->
-  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/wlan"/>
 
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Calendar" />
@@ -136,7 +137,6 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/libhwbinder" />
-  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
