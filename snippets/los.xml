@@ -20,6 +20,7 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
+  <project path="external/bson" name="android_external_bson" remote="lineage" revision="lineage-21" />
   <project path="external/cronet" name="android_external_cronet" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
 
@@ -119,4 +120,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="lineage" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" remote="lineage" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="lineage" />
+
+  <!-- system repos -->
+  <project path="system/qcom" name="android_system_qcom" remote="lineage" revision="lineage-21" />
 </manifest>
