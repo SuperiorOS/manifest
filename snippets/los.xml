@@ -23,6 +23,7 @@
   <project path="external/bson" name="android_external_bson" remote="lineage" revision="lineage-21" />
   <project path="external/cronet" name="android_external_cronet" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" revision="lineage-21.0" remote="lineage" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
@@ -99,6 +100,7 @@
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" remote="lineage" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-21.0" remote="lineage" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="lineage" />

@@ -48,7 +48,6 @@
   <!-- External repos -->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="superior" />
   <project path="external/mksh" name="android_external_mksh" remote="superior" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="superior" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="superior" />
   <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" groups="pdk" remote="aosp" revision="refs/heads/main" />
