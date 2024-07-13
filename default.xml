@@ -1397,4 +1397,14 @@
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" >
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
+
+<!-- Remove unused AOSP repos -->
+<include name="snippets/remove.xml" />
+
+    <!-- Superior OS repos -->
+<include name="snippets/superior.xml" />
+
+<!-- Some Lineage repos -->
+<include name="snippets/los.xml" />
+
 </manifest>
