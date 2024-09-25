@@ -1469,4 +1469,11 @@
   </project>
   <!-- END open-source projects -->
 
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
+  <!-- Superior OS repos -->
+  <include name="snippets/superior.xml" />
+  <!-- LineageOS repos -->
+  <include name="snippets/los.xml" />
+
 </manifest>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device -->
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/art" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/generic/trusty" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/barbet" />
+  <remove-project name="device/google/barbet-sepolicy" />
+  <remove-project name="device/google/bluejay" />
+  <remove-project name="device/google/bluejay-sepolicy" />
+  <remove-project name="device/google/bluejay-kernels/5.10" />
+  <remove-project name="device/google/coral" />
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-kernel" />
+  <remove-project name="device/google/redfin" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/gs101" />
+  <remove-project name="device/google/gs101-sepolicy" />
+  <remove-project name="device/google/gs201" />
+  <remove-project name="device/google/gs201-sepolicy" />
+  <remove-project name="device/google/gs-common" />
+  <remove-project name="device/google/raviole" />
+  <remove-project name="device/google/raviole-kernels/5.10" />
+  <remove-project name="device/google/pantah" />
+  <remove-project name="device/google/pantah-kernels/5.10" />
+  <remove-project name="device/google/lynx" />
+  <remove-project name="device/google/lynx-sepolicy" />
+  <remove-project name="device/google/lynx-kernels/5.10" /> 
+  <remove-project name="device/google/tangorpro" />
+  <remove-project name="device/google/tangorpro-sepolicy" />
+  <remove-project name="device/google/tangorpro-kernels/5.10" /> 
+  <remove-project name="device/google/felix" />
+  <remove-project name="device/google/felix-sepolicy" />
+  <remove-project name="device/google/felix-kernels/5.10" /> 
+  <remove-project name="device/google/shusky" /> 
+  <remove-project name="device/google/shusky-sepolicy" /> 
+  <remove-project name="device/google/shusky-kernels/5.15" /> 
+  <remove-project name="device/google/akita" /> 
+  <remove-project name="device/google/akita-sepolicy" /> 
+  <remove-project name="device/google/akita-kernels/5.15" /> 
+  <remove-project name="device/google/zuma" />
+  <remove-project name="device/google/zuma-sepolicy" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google_car" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/sample" />
+  <remove-project name="device/google/caimito" />
+  <remove-project name="device/google/caimito-kernels/6.1" />
+  <remove-project name="device/google/caimito-sepolicy" />
+  <remove-project name="device/google/zumapro" />
+  <remove-project name="device/google/zumapro-sepolicy" />
+  <remove-project name="device/google/comet" />
+  <remove-project name="device/google/comet-kernels/6.1" />
+  <remove-project name="device/google/comet-sepolicy" /> 
+
+  <!-- external repos -->
+  <remove-project name="platform/external/dtc" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/libnl" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zstd" />
+
+  <!-- General repos -->
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/bootable/deprecated-ota" />
+  <remove-project name="platform/build/soong" />
+
+  <!-- Frameworks Repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- Hardware repos -->
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
+  <!-- packages repos -->
+  <remove-project name="platform/packages/apps/Settings" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
+
+</manifest>
