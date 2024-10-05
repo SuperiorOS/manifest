@@ -42,7 +42,6 @@
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
   <remove-project name="device/google/shusky" />
-  <remove-project name="device/google/shusky-kernel" />
   <remove-project name="device/google/shusky-sepolicy" />
   <remove-project name="device/google/tangorpro" />
   <remove-project name="device/google/tangorpro-kernel" />
@@ -59,6 +58,7 @@
   <remove-project name="device/google/lynx-kernel" />
   <remove-project name="device/google/lynx-sepolicy" />
   <remove-project name="device/google/pantah" />
+  <remove-project name="device/google/pantah-kernel" />
   <remove-project name="device/google/pantah-sepolicy" />
   <remove-project name="device/google/raviole" />
   <remove-project name="device/google/raviole-kernel" />
