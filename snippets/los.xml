@@ -109,6 +109,7 @@
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-21" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="lineage" />
