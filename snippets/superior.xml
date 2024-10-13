@@ -49,6 +49,7 @@
   <project path="external/bash" name="android_external_bash" remote="superior" />
   <project path="external/dtc" name="android_external_dtc" remote="superior" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="superior" />
+  <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="superior" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="superior" />
   <project path="external/json-c" name="android_external_json-c" remote="superior" />
   <project path="external/libcxx" name="android_external_libcxx" remote="superior" />
