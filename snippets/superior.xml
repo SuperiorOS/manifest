@@ -38,7 +38,9 @@
   <project path="art" name="android_art" remote="superior" />
   <project path="bionic" name="android_bionic" remote="superior" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+  <project path="build/release" name="android_build_release" groups="pdk,tradefed" remote="superior" />
   <project path="kernel/configs" name="android_kernel_configs" remote="superior" />
+  <project path="libcore" name="android_libcore" groups="pdk" remote="superior" />
 
   <!-- Device repos --> 
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" /> 
@@ -134,6 +136,7 @@
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="superior" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="superior" />
   <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="superior" />
+  <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="superior" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="superior" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="superior" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />
