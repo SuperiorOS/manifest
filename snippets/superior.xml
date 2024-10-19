@@ -41,6 +41,7 @@
 
   <!-- External repos -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="superior" />
+  <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="superior" revision="fourteen" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="superior" />
   <project path="external/mksh" name="android_external_mksh" remote="superior" />
 
@@ -69,8 +70,10 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="superior" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="superior" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="superior" />
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="superior" revision="fourteen" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="superior" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_Omnistyle" remote="superior" revision="fourteen"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
   <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="superior" />
