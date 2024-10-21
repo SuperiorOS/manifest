@@ -13,7 +13,7 @@
 
   <remote name="superior-gitlab"
     fetch="https://gitlab.com/superioros"
-    revision="refs/heads/fourteen" />
+    revision="refs/heads/fifteen" />
 
   <remote name="SuperiorOS-Devices"
     fetch="https://github.com/SuperiorOS-Devices"
@@ -80,6 +80,7 @@
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="superior" />
 
   <!-- Vendor Repos -->
+  <project path="vendor/gms" name="android_vendor_pixelgapps" remote="superior-gitlab" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="superior" />
   <project path="vendor/prebuilts-superior" name="android_vendor_prebuilts-superior" remote="superior-gitlab" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
