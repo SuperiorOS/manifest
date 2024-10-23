@@ -74,6 +74,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="superior" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="superior" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
   <project path="packages/modules/Virtualization" name="android_packages_modules_Virtualization" groups="pdk" remote="superior" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="superior" />
