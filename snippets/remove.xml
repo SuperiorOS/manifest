@@ -87,11 +87,14 @@
   <remove-project name="platform/external/zstd" />
 
   <!-- General repos -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/development" />
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
@@ -105,6 +108,7 @@
 
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/Virtualization" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
