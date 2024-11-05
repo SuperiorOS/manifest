@@ -86,6 +86,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
+  <remove-project name="platform/external/skia" />
 
   <!-- Frameworks repos -->
   <remove-project name="platform/frameworks/av" />
@@ -153,6 +154,7 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/keymint" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/security" />

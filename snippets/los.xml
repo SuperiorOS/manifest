@@ -23,6 +23,7 @@
   <project path="external/libnl" name="android_external_libnl" remote="lineage" />
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/zstd" name="android_external_zstd" remote="lineage" />
+  <project path="external/skia" name="android_external_skia" remote="lineage" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
@@ -46,6 +47,9 @@
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+
+  <!-- System -->
+  <project path="system/keymint" name="android_system_keymint" remote="lineage" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
