@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="superior"
+    fetch="https://github.com/SuperiorOS"
+    revision="refs/heads/fifteen-los" />
+
+  <remote name="gitlab"
+    fetch="https://gitlab.com/" />
+
+  <!-- Build Repos -->
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="superior" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device Repos -->
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="superior" />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="superior" />
+
+  <!-- General Repos -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="superior" />
+  <project path="bionic" name="bionic" remote="superior" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="superior" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="superior"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="superior" />
+  <project path="packages/apps/SuperiorLab" name="packages_apps_SuperiorLab" remote="superior" />
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="superior" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="superior"/>
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="superior" />
+
+  <!-- Vendor Repos -->
+  <project path="vendor/certification" name="vendor_certification" remote="superior" />
+  <project path="vendor/extra" name="vendor_superior" remote="superior" >
+    <linkfile src="build.sh" dest="build-superior.sh" />
+  </project>
+  <project path="vendor/support" name="vendor_support" remote="superior" />
+  <project path="vendor/lineage" name="vendor_lineage" remote="superior" />
+
+  <!-- GAPPS -->
+  <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" revision="vic" remote="gitlab" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="superior" />
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Required to build Shushky -->
+  <project path="device/google/gs-common" name="device_google_gs-common" remote="superior" />
+  <project path="device/google/gs101" name="device_google_gs101" remote="superior" />
+  <project path="device/google/zuma" name="device_google_zuma" remote="superior" />
+  <project path="device/google/shusky" name="device_google_shusky" remote="superior" />
+  <project path="device/google/shiba" name="device_google_shiba" remote="superior" />
+  <project path="device/google/shusky-kernels/5.15" name="device/google/shusky-kernels/5.15" remote="aosp-shusky" />
+
+  <!-- Shiba vendor -->
+  <project path="vendor/google/shiba" name="vendor_google_shiba" remote="superior" />
+
+  <!-- Face unlock -->
+  <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="superior" />
+</manifest>
