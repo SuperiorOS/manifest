@@ -1,0 +1,31 @@
+name: Sync with upstream
+
+on:
+  workflow_dispatch:
+
+  repository_dispatch:
+    types: [sync_trigger]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config user.name "Jayant-Deshmukh"
+          git config user.email "jayantdeshmuk008@gmail.com"
+
+      - name: Add upstream remote and rebase
+        run: |
+          git config --global pull.rebase true
+          git pull https://github.com/LineageOS/android.git lineage-22.1
+
+      - name: Push rebased changes to origin
+        run: |
+          git push origin HEAD:fifteen-los --force-with-lease
