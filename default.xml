@@ -512,7 +512,7 @@
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" remote="aosp" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
   <project path="external/setfilters" name="platform/external/setfilters" groups="pdk" remote="aosp" />
-  <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" groups="pdk,sysui-studio" />
+  <project path="external/setupcompat" name="platform/external/setupcompat" groups="pdk,sysui-studio" remote="aosp" />
   <project path="external/setupdesign" name="platform/external/setupdesign" groups="pdk,sysui-studio" remote="aosp" />
   <project path="external/sg3_utils" name="platform/external/sg3_utils" groups="pdk" remote="aosp" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" remote="aosp" />
