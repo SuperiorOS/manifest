@@ -40,6 +40,7 @@
   <project path="vendor/certification" name="vendor_certification" remote="superior" />
   <project path="vendor/extra" name="vendor_superior" remote="superior" >
     <linkfile src="scripts/build.sh" dest="build-superior.sh" />
+    <linkfile src="scripts/push_ota.sh" dest="push_ota.sh" />
   </project>
   <project path="vendor/support" name="vendor_support" remote="superior" />
   <project path="vendor/lineage" name="vendor_lineage" remote="superior" />
