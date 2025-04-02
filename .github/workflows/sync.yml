@@ -24,7 +24,7 @@ jobs:
       - name: Add upstream remote and rebase
         run: |
           git config --global pull.rebase false
-          git pull https://github.com/LineageOS/android.git lineage-22.1
+          git pull https://github.com/LineageOS/android.git lineage-22.2
 
       - name: Push rebased changes to origin
         run: |
