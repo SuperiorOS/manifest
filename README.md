@@ -20,10 +20,18 @@ To get started with the building process, you'll need to get familiar with [Git 
 
 # Sync Source:-
 
+Development -
+
 ```bash
     repo init -u https://github.com/SuperiorOS/manifest.git -b fifteen-los --git-lfs
 ```
 
+Stable -
+```bash
+    repo init -u https://github.com/SuperiorOS/manifest.git -b fifteen-los -m stable/latest.xml --git-lfs
+```
+
+Sync -
 ```bash
     repo sync --force-sync
 ```
