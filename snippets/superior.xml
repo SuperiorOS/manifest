@@ -29,6 +29,7 @@
   <project path="manifest" name="manifest" remote="superior" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="superior"/>
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="superior"/>
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="superior"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="superior" />
