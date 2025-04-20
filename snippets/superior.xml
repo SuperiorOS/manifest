@@ -34,6 +34,7 @@
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="superior"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="superior" />
   <project path="packages/apps/SuperiorLab" name="packages_apps_SuperiorLab" remote="superior" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="superior" />
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="superior" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="superior"/>
   <project path="packages/overlays/Lineage" name="packages_overlays_superior" remote="superior"/>
