@@ -32,6 +32,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="superior"/>
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="superior"/>
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="superior"/>
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="superior" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="superior" />
   <project path="packages/apps/SuperiorLab" name="packages_apps_SuperiorLab" remote="superior" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="superior" />
