@@ -17,6 +17,9 @@
   <!-- Device Repos -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="superior" />
 
+  <!-- External Repos -->
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="superior" />
+
   <!-- Frameworks Repos -->
   <project path="frameworks/base" name="frameworks_base" remote="superior" />
 
@@ -42,7 +45,6 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="superior" />
 
   <!-- Vendor Repos -->
-  <project path="vendor/certification" name="vendor_certification" remote="superior" />
   <project path="vendor/extra" name="vendor_superior" remote="superior" >
     <linkfile src="scripts/build.sh" dest="build-superior.sh" />
     <linkfile src="scripts/push_ota.sh" dest="push_ota.sh" />
