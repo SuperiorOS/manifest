@@ -53,6 +53,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="superior"/>
   <project path="packages/apps/SuperiorLab" name="packages_apps_SuperiorLab" remote="superior" />
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="superior"/>
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="superior" />
 
   <!-- Vendor Repos -->
   <project path="vendor/superior" name="vendor_superior" remote="superior" />
