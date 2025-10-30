@@ -56,6 +56,7 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="superior" />
 
   <!-- Vendor Repos -->
+  <project path="vendor/addons" name="vendor_addons" remote="superior" />
   <project path="vendor/superior" name="vendor_superior" remote="superior" />
   <project path="vendor/support" name="vendor_support" remote="superior" />
 
