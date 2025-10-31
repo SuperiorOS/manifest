@@ -57,7 +57,10 @@
 
   <!-- Vendor Repos -->
   <project path="vendor/addons" name="vendor_addons" remote="superior" />
-  <project path="vendor/superior" name="vendor_superior" remote="superior" />
+  <project path="vendor/superior" name="vendor_superior" remote="superior" >
+    <linkfile src="scripts/build.sh" dest="build-superior.sh" />
+    <linkfile src="scripts/push_ota" dest="push_ota" />
+  </project>
   <project path="vendor/support" name="vendor_support" remote="superior" />
 
   <!-- System Repos -->
