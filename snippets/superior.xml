@@ -68,4 +68,5 @@
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="superior" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="superior" />
 </manifest>
