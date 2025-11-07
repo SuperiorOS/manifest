@@ -31,9 +31,21 @@ To get started with the building process, you'll need to get familiar with [Git 
 # Start the build:-
 
 ```bash
-  . build/envsetup.sh
-  lunch superior_<devicecodename>-bp2a-user
-  m bacon
+./build-superior.sh <devicecodename> [options]
+```
+```bash
+Options:
+  -h, --help            Display this help message
+  -c, --clean           Wipe the tree before building
+  -i, --installclean    Dirty build - Use 'installclean'
+  -t, --build-type      Specify build type
+  -j, --jobs            Specify jobs/threads to use
+  -m, --module          Build a specific module
+  -s, --sign-keys       Specify path to sign key mappings
+  -p, --pwfile          Specify path to sign key password file
+  -d, --delta           Generate a delta ota from the specified target_files zip
+  -z, --imgzip          Generate fastboot flashable image zip from signed target_files
+
 ```
 
 ---
