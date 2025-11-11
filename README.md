@@ -1,70 +1,110 @@
 <p align="center">
-<img src="https://github.com/user-attachments/assets/ed59c139-0818-4200-b39c-b8798c30dac6" />
+  <img src="https://github.com/user-attachments/assets/744ff7e8-cd87-48c8-bd8c-13a3025f012d" alt="SuperiorOS Logo" />
 </p>
+
+<h1 align="center">SuperiorOS</h1>
+<p align="center">A clean, stable, and performance-focused Android ROM.</p>
 
 ---
 
-# Credits:
+## 🧠 Credits
 
 - [**AOSP**](https://android.googlesource.com)
 - [**LineageOS**](https://github.com/LineageOS)
-- [**Crdroid Android**](https://github.com/crdroidandroid)
+- [**crDroid Android**](https://github.com/crdroidandroid)
 
-To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+Before building, make sure you’re familiar with [Git and Repo](https://source.android.com/setup/develop/repo).
 
-# Requirements:
 
-- Around 400G disk space.
-- A computer with at least 16GB RAM running Linux (recommended) or MacOS.
-- Build environment [setup](https://github.com/akhilnarang/scripts).
+## ⚙️ Requirements
 
-# Sync Source:-
+| Resource | Recommended |
+|-----------|--------------|
+| **Disk Space** | ~400 GB |
+| **RAM** | 16 GB or higher |
+| **OS** | Linux (preferred) or macOS |
+| **Build Environment** | [Setup using Akhil Narang’s scripts](https://github.com/akhilnarang/scripts) |
+
+
+## 🧩 Sync Source
 
 ```bash
-    repo init -u https://github.com/SuperiorOS/manifest.git -b sixteen-los --git-lfs
+repo init -u https://github.com/SuperiorOS/manifest.git -b sixteen-los --git-lfs
+repo sync --force-sync
 ```
 
-```bash
-    repo sync --force-sync
-```
 
-# Start the build:-
+## 🏗️ Building SuperiorOS
+
+Run the build script:
 
 ```bash
 ./build-superior.sh <devicecodename> [options]
 ```
-```bash
-Options:
-  -h, --help            Display this help message
-  -c, --clean           Wipe the tree before building
-  -i, --installclean    Dirty build - Use 'installclean'
-  -t, --build-type      Specify build type
-  -j, --jobs            Specify jobs/threads to use
-  -m, --module          Build a specific module
-  -s, --sign-keys       Specify path to sign key mappings
-  -p, --pwfile          Specify path to sign key password file
-  -d, --delta           Generate a delta ota from the specified target_files zip
-  -z, --imgzip          Generate fastboot flashable image zip from signed target_files
 
-```
+### Available Options
 
----
+| Option               | Description                              |
+| -------------------- | ---------------------------------------- |
+| `-h, --help`         | Display this help message                |
+| `-c, --clean`        | Clean the entire tree before building    |
+| `-i, --installclean` | Dirty build with *installclean*          |
+| `-t, --build-type`   | Specify build type                       |
+| `-j, --jobs`         | Number of threads to use                 |
+| `-m, --module`       | Build a specific module                  |
+| `-s, --sign-keys`    | Specify path to sign key mappings        |
+| `-p, --pwfile`       | Path to sign key password file           |
+| `-d, --delta`        | Generate delta OTA from target_files zip |
+| `-z, --imgzip`       | Generate fastboot flashable image zip    |
 
-# Some Links:-
 
-- [**Telegram Public Chat**](https://t.me/superioros)
-- [**Telegram Channel**](https://t.me/superior_os)
-- [**Crowdin**](https://crowdin.com/project/superior-os)
+## 📦 Downloads
 
----
+| Platform               | Link                                                                                |
+| ---------------------- | ----------------------------------------------------------------------------------- |
+| 📦 **SourceForge**     | [Download Builds](https://sourceforge.net/projects/superioros/files/)               |
+| 🧭 **GitHub Releases** | [Official Devices](https://github.com/SuperiorOS/OTA/releases) |
 
-# Download Stats:-
 
-| Download Source | Total                                                                                                                                                |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GitHub Releases | ![GitHub all releases](https://img.shields.io/github/downloads/SuperiorOS-Devices/official_devices/total?logo=GitHub&style=for-the-badge&color=blue) |
+## 🌍 Translations
 
-| Download Source | Daily                                                                                                                              | Weekly                                                                                                                             | Monthly                                                                                                                            | Total                                                                                                                              |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| SourceForge     | ![SourceForge](https://img.shields.io/sourceforge/dd/superioros?color=8827ed&logo=sourceforge&logoColor=black&style=for-the-badge) | ![SourceForge](https://img.shields.io/sourceforge/dw/superioros?color=6d1cf6&logo=sourceforge&logoColor=black&style=for-the-badge) | ![SourceForge](https://img.shields.io/sourceforge/dm/superioros?color=4b02a4&logo=sourceforge&logoColor=black&style=for-the-badge) | ![SourceForge](https://img.shields.io/sourceforge/dt/superioros?color=ff4d4d&logo=sourceforge&logoColor=black&style=for-the-badge) |
+Want to help translate SuperiorOS?
+Join us on [**Crowdin**](https://crowdin.com/project/superior-os).
 
+
+## 🪲 Reporting Issues
+
+When reporting bugs or crashes:
+
+* Ensure you’re on the **latest official build**.
+* Include a **logcat** or relevant logs.
+* Mention your **device codename** and **build version**.
+
+Join our [**Telegram Chat**](https://t.me/superioros) for support.
+
+
+## 📊 Download Statistics
+
+### 🧭 GitHub
+
+![GitHub all releases](https://img.shields.io/github/downloads/SuperiorOS-Devices/official_devices/total?logo=GitHub\&style=for-the-badge\&color=blue)
+
+### 🚀 SourceForge
+
+| Period      | Badge                                                                                                               |
+| ----------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Daily**   | ![SF Daily](https://img.shields.io/sourceforge/dd/superioros?color=8827ed\&logo=sourceforge\&style=for-the-badge)   |
+| **Weekly**  | ![SF Weekly](https://img.shields.io/sourceforge/dw/superioros?color=6d1cf6\&logo=sourceforge\&style=for-the-badge)  |
+| **Monthly** | ![SF Monthly](https://img.shields.io/sourceforge/dm/superioros?color=4b02a4\&logo=sourceforge\&style=for-the-badge) |
+| **Total**   | ![SF Total](https://img.shields.io/sourceforge/dt/superioros?color=ff4d4d\&logo=sourceforge\&style=for-the-badge)   |
+
+
+## 🔗 Community Links
+
+* 💬 [**Telegram Chat**](https://t.me/superioros)
+* 📢 [**Telegram Channel**](https://t.me/superior_os)
+
+
+<p align="center">
+  <sub>Built with ❤️ by the <a href="https://github.com/SuperiorOS">SuperiorOS Team</a> & Community</sub>
+</p>
