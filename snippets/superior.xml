@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="superior"
+    fetch="https://github.com/SuperiorOS"
+    revision="refs/heads/16.2" />
+
+  <remote name="superior-gitlab"
+    fetch="https://gitlab.com/superioros"
+    revision="refs/heads/16.2" />
+
+  <remote name="SuperiorOS-Devices"
+    fetch="https://github.com/SuperiorOS-Devices"
+    revision="refs/heads/16.2" />
+
+  <remote name="gitlab"
+    fetch="https://gitlab.com/" />
+
+  <!-- Build Repos -->
+  <project path="build/make" name="build" groups="pdk" remote="superior" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="superior" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device Repos -->
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="superior" />
+
+  <!-- External Repos -->
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="superior" />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="superior" />
+
+  <!-- General Repos -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="superior" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="superior" />
+
+  <!-- Hardware Repos -->
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="superior" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="manifest" remote="superior" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="superior" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="superior" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="superior" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="superior"/>
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="superior"/>
+
+  <!-- Vendor Repos -->
+  <project path="vendor/superior" name="vendor_superior" remote="superior" >
+    <linkfile src="scripts/build.sh" dest="build-superior.sh" />
+    <linkfile src="scripts/push_ota" dest="push_ota" />
+  </project>
+
+  <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="superior" />
+  <project path="system/update_engine" name="system_update_engine" remote="superior" />
+</manifest>
