@@ -35,6 +35,7 @@
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="superior" />
 
   <!-- External Repos -->
+  <project path="external/bash" name="external_bash" remote="superior" />
   <project path="external/bouncycastle" name="external_bouncycastle" remote="superior" />
 
   <!-- Frameworks Repos -->
