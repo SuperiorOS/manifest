@@ -52,6 +52,7 @@
   <project path="manifest" name="manifest" remote="superior" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="superior" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="superior" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="superior" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="superior" />
