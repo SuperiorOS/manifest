@@ -44,6 +44,7 @@
   <!-- General Repos -->
   <project path="bootable/recovery" name="bootable_recovery" remote="superior" />
   <project path="lineage-sdk" name="lineage-sdk" remote="superior" />
+  <project path="bionic" name="bionic" remote="superior" />
 
   <!-- Hardware Repos -->
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="superior" />

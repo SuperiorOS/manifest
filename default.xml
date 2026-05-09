@@ -25,7 +25,6 @@
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" remote="aosp" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
